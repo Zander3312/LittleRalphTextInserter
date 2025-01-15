@@ -4,7 +4,7 @@
 #include <sstream>
 #include <map>
 #include <vector>
-#include "lr_text_inserter.h"
+#include "LittleRalphTextInserter.h"
 using namespace std;
 
 string hexToAddress(string hex) { //Converts a hex value to an address that can be inserted into the game, which involves changing to little endian and adding 0x80000000. Currently unused.
@@ -60,7 +60,7 @@ string hexToInsertable(string hexStr) { //Converts string of hex to its equivale
 int main(int argc, char* argv[])
 {
     if (argc != 3) { //If the argument amount is incorrect
-        cout << ("Usage: lr_text_inserter.exe <txt> <stage>\nRefer to the readme for more usage info.") << endl;
+        cout << ("Usage: LittleRalphTextInserter.exe <txt> <stage>\nRefer to the readme for more usage info.") << endl;
         return 0;
     }
     else {
