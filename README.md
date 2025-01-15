@@ -7,6 +7,7 @@ Text insertion program for The Adventure of Little Ralph for the PlayStation 1. 
 The .exe should be placed in the root of the Little Ralph English Translation's unpacked root directory (next to folders like MINIKID and OPENNING).
 Program should be run from the command line with two arguments: the file the text is to be read from (preferably a .txt), and the stage the text is for. The stage argument should be a single character.
 The opening is the only stage currently supported, and can be chosen by inputting "o" as the second command line argument.
+After the program has run successfully, a new "inserter_output.bin" will be created. When ready, replace the original file you edited with said file to finish editing.
 
 ### Text input format
 
