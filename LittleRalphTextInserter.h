@@ -7,7 +7,8 @@ using namespace std;
 
 string currentLine, boxText, address{};
 int totalChars, charsOnLine, maxCharsOnLine, prevDots, numBoxes{0};
-int maxLines, lines{1};
+int maxLines{1};
+int lines{1};
 map<char, vector<string>> stageMap = { //       char    prop     extra   size  exsize  length
             { 'o', { "OPENNING/OPENNING.BIN", "19000", "19784", "59776", "782", "144", "19" } }, //vector order: write file, char write location, property write location, extra space location, space amount, extra space amount, number of text boxes
             { '1', { "MINIKID/MINIKID.BIN", "307092", "307808", "268560", "714", "304", "19" } },
@@ -16,7 +17,7 @@ map<char, vector<string>> stageMap = { //       char    prop     extra   size  e
             { 't', { "DEKAKID/DEKAKID.BIN", "82916", "83364", "0", "446", "0", "12" } },
             { '5', { "MINIKID/MINIKID.BIN", "309388", "309796", "269984", "408", "240", "15" } },
             { 'v', { "DEKAKID/DEKAKID.BIN", "83584", "84396", "0", "812", "0", "21" } },
-            { 'e', { "ENDING/ENDING1.BIN", "20576", "22388", "59104", "1812", "160", "12" } },
+            { 'e', { "ENDING/ENDING1.BIN", "20576", "22388", "59104", "1812", "160", "13" } },
             { 'f', { "DEKAKID/DEKAKID.BIN", "84816", "85672", "0", "856", "0", "23" } },
             { 'd', { "DEKAKID/DEKAKID.BIN", "86132", "86864", "0", "732", "0", "16" } },
             { 'n', { "ENDING/ENDING2.BIN", "24496", "27108", "297906", "2612", "174", "27" } },
