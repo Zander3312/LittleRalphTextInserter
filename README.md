@@ -1,6 +1,6 @@
 # The Adventure of Little Ralph Text Inserter
 
-Text insertion program for The Adventure of Little Ralph for the PlayStation 1. Intended for use with the English translation patch.
+Text insertion program for The Adventure of Little Ralph for the PlayStation 1. Intended for use with the English translation patch, which can be found [here](https://romhackplaza.org/translations/the-adventure-of-little-ralph-english-translation-english-translation-playstation/).
 
 ### Usage instructions
 
